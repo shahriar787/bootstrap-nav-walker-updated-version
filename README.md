@@ -26,13 +26,12 @@ require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 
 <h4>Bootstrap Version 4.0 to 5.0 <h4>
   <div class="highlight highlight-text-html-php position-relative">
- <copy><pre>
+ <pre>
   <nav class="wpc-main-menu navbar navbar-expand-md navbar-light" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
        </button>
       <a class="navbar-brand" href="#">Navbar</a>
-          <?php
           wp_nav_menu( array(
               'theme_location'    => 'mart_primary_menu',
               'depth'             => 2,
@@ -43,8 +42,5 @@ require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
               'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
               'walker'            => new WP_Bootstrap_Navwalker(),
           ) );
-          ?>
-  </nav>
-  </copy>
   </pre>
   </div>
