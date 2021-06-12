@@ -1,7 +1,7 @@
 # bootstrap-nav-walker-updated-version
 
 <pre>
-<h3>If you are using a bootstrap version 4 or less then you need to download it from below link</h3> 
+<h3>If you are using a bootstrap version 4 or less then you need<br/>to download it from below link</h3> 
 </pre>
 <code>https://github.com/wp-bootstrap/wp-bootstrap-navwalker</code>
 
